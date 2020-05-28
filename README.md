@@ -34,6 +34,10 @@ Reach goals:
 * Allow users to customize study sessions (number of cards, only cards below a certain success rate, etc.)
 * Allow users to share their sets with other users.
 
+## Wireframes
+
+See images in repository
+
 ## Plan and timeline
 
 May 29 - May 31
