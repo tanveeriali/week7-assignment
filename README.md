@@ -6,9 +6,9 @@ BrainKwik is an online flash card creator that will help you memorize and study 
 
 ## Expected dependencies
 
-React router
-Bootstap
-Firebase
+* React router
+* Bootstap
+* Firebase
 
 ## Tasks
 
