@@ -1,3 +1,74 @@
+# Name of project: BrainKwik (Working Title)
+
+## Elevator pitch
+
+BrainKwik is an online flash card creator that will help you memorize and study what you need fast. It is a well-designed, easy-to-use app that makes cramming for a test or remembering the names of members of your extended family easy. The initial scope of this app will focus on helping users build and study their own flash card sets. But it's also being built for scalability in which people can share and search for other flash card sets. (Not within the scope of this class.)
+
+## Expected dependencies
+
+React router
+Bootstap
+Firebase
+
+## Tasks
+
+* Architect underlying database in firebase. Should be organized by User > Flash Card Set > Card
+  - Metadata for each flashcard set (Title, Times Practiced, Category, Shared with public (boolean), Last Practiced)
+  - Metadata for each card (Side A, Side B, Number of times answered, Number of times correct)
+* Set rules for database
+* Start create-react-app scaffold
+* Create login screen route for app
+  - Minimum Google and by email
+* Build preset flash card sets in Firebase available to all users
+* Create UI for flash card building screen (requires route)
+  - Implement form validations and checks
+  - Minimum set should have a category, a title and at least one complete card.
+  - Store this information in state and send back to firebase on completion
+* Connect flash card builder to firebase database
+ - Fetch card set from firebase and store in state
+* Create UI for flash card answering
+ - Store performance in state. Send performance to firebase on completion
+
+Reach goals:
+* Allow users to track how well they've been doing in each set.
+* Allow users to customize study sessions (number of cards, only cards below a certain success rate, etc.)
+* Allow users to share their sets with other users.
+
+## Plan and timeline
+
+May 29 - May 31
+* Architect underlying database in firebase. Should be organized by User > Flash Card Set > Card
+  - Metadata for each flashcard set (Title, Times Practiced, Category, Shared with public (boolean), Last Practiced)
+  - Metadata for each card (Side A, Side B, Number of times answered, Number of times correct)
+* Set rules for database
+* Start create-react-app scaffold
+* Create login screen route for app
+  - Minimum Google and by email
+* Build preset flash card sets in Firebase available to all users
+
+June 1-June 5
+* Build preset flash card sets in Firebase available to all users
+* Create UI for flash card building screen (requires route)
+  - Implement form validations and checks
+  - Minimum set should have a category, a title and at least one complete card.
+  - Store this information in state and send back to firebase on completion
+* User test the flash card building
+  
+June 6-9
+* Connect flash card builder to firebase database
+ - Fetch card set from firebase and store in state
+* Create UI for flash card answering
+ - Store performance in state. Send performance to firebase on completion
+* User test the flash card answering
+
+June 10-14
+* Polish and bug removal
+
+June 15
+* Submit project
+ 
+---------
+
 # Week 7 Assignment
 
 Your assignment for this week is to think of a final project idea and create a plan for the project.
