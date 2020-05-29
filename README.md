@@ -38,6 +38,7 @@ BrainKwik is an online flash card creator that will help you memorize and study 
  - Serve up a random card for answering
  - Build card flip UI CSS
  - Store performance in state. Send performance to firebase on completion
+* Build React component for end of card set UI
 
 Reach goals:
 * Allow users to track how well they've been doing in each set.
@@ -83,6 +84,7 @@ June 6-9
  - Serve up a random card for answering
  - Build card flip UI CSS
  - Store performance in state. Send performance to firebase on completion
+* Build React component for end of card set UI
 * User test the flash card answering
 
 June 10-14
