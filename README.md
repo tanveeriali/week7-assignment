@@ -15,18 +15,28 @@ BrainKwik is an online flash card creator that will help you memorize and study 
 * Architect underlying database in firebase. Should be organized by User > Flash Card Set > Card
   - Metadata for each flashcard set (Title, Times Practiced, Category, Shared with public (boolean), Last Practiced)
   - Metadata for each card (Side A, Side B, Number of times answered, Number of times correct)
-* Set rules for database
-* Start create-react-app scaffold
-* Create login screen route for app
-  - Minimum Google and by email
 * Build preset flash card sets in Firebase available to all users
+* Start create-react-app scaffold
+  - Install dependencies
+* Create firebase login screen route for app
+  - Minimum Google and by email
+* Set rules for database
+  - User can only access public card sets and self-created sets
+* Create UI for intro scene
+  - Clickable cards will be based on state from retrieved user data.
+  - Create CSS rules specific to card set categories
+* Create logic for click on intro scene cards
+  - Fetch flash card set from firebase and store in state
+  - If create new flash card set is clicked, create a new card set collection.
 * Create UI for flash card building screen (requires route)
+  - Create UI for new card sets which start with card picker.
   - Implement form validations and checks
   - Minimum set should have a category, a title and at least one complete card.
-  - Store this information in state and send back to firebase on completion
-* Connect flash card builder to firebase database
- - Fetch card set from firebase and store in state
+  - Check validation on each card save.
+  - Store this information in state and send back to firebase on completion.
 * Create UI for flash card answering
+ - Serve up a random card for answering
+ - Build card flip UI CSS
  - Store performance in state. Send performance to firebase on completion
 
 Reach goals:
@@ -44,24 +54,34 @@ May 29 - May 31
 * Architect underlying database in firebase. Should be organized by User > Flash Card Set > Card
   - Metadata for each flashcard set (Title, Times Practiced, Category, Shared with public (boolean), Last Practiced)
   - Metadata for each card (Side A, Side B, Number of times answered, Number of times correct)
-* Set rules for database
+* Build preset flash card sets in Firebase available to all users
 * Start create-react-app scaffold
-* Create login screen route for app
+  - Install dependencies
+* Create firebase login screen route for app
   - Minimum Google and by email
-* Build preset flash card sets in Firebase available to all users
-
+* Set rules for database
+  - User can only access public card sets and self-created sets
+  
 June 1-June 5
-* Build preset flash card sets in Firebase available to all users
+
+* Create UI for intro scene
+  - Clickable cards will be based on state from retrieved user data.
+  - Create CSS rules specific to card set categories
+* Create logic for click on intro scene cards
+  - Fetch flash card set from firebase and store in state
+  - If create new flash card set is clicked, create a new card set collection.
 * Create UI for flash card building screen (requires route)
+  - Create UI for new card sets which start with card picker.
   - Implement form validations and checks
   - Minimum set should have a category, a title and at least one complete card.
-  - Store this information in state and send back to firebase on completion
+  - Check validation on each card save.
+  - Store this information in state and send back to firebase on completion.
 * User test the flash card building
   
 June 6-9
-* Connect flash card builder to firebase database
- - Fetch card set from firebase and store in state
 * Create UI for flash card answering
+ - Serve up a random card for answering
+ - Build card flip UI CSS
  - Store performance in state. Send performance to firebase on completion
 * User test the flash card answering
 
