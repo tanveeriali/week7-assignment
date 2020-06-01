@@ -52,12 +52,12 @@ See images in repository
 ## Plan and timeline
 
 May 29 - May 31
-* Architect underlying database in firebase. Should be organized by User > Flash Card Set > Card
-  - Metadata for each flashcard set (Title, Times Practiced, Category, Shared with public (boolean), Last Practiced)
-  - Metadata for each card (Side A, Side B, Number of times answered, Number of times correct)
-* Build preset flash card sets in Firebase available to all users
-* Start create-react-app scaffold
-  - Install dependencies
+* Architect underlying database in firebase. Should be organized by User > Flash Card Set > Card ✓
+  - Metadata for each flashcard set (Title, Times Practiced, Category, Shared with public (boolean), Last Practiced) ✓
+  - Metadata for each card (Side A, Side B, Number of times answered, Number of times correct) ✓
+* Build preset flash card sets in Firebase available to all users ✓
+* Start create-react-app scaffold ✓
+  - Install dependencies ✓
 * Create firebase login screen route for app
   - Minimum Google and by email
 * Set rules for database
